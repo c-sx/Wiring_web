@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>社区资料</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="../information/information.html" class="nav-link">主页</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="../user_manage/user_manage.html" class="nav-link">用户管理</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="../task_manage/task_manage.html" class="nav-link">任务管理</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="../notify/notify.html" class="nav-link">通知/公告</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="../statistics/statistics.html" class="nav-link">数据统计</a>
+      </li>
+    </ul>
+
+    <!-- SEARCH FORM -->
+    <form class="form-inline ml-3">
+      <div class="input-group input-group-sm">
+        <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+        <div class="input-group-append">
+          <button class="btn btn-navbar" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Messages Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-comments"></i>
+          <span class="badge badge-danger navbar-badge">3</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="../../dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  王洪灿
+                  <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">我怎么被禁言了？？</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="../../dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  黄金峰
+                  <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">你好，我开错金额了，能追回吗</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="../../dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  黎子豪
+                  <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">怎么选管理员，我想报名？</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">查看所有消息</a>
+        </div>
+      </li>
+      <!-- Notifications Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-bell"></i>
+          <span class="badge badge-danger navbar-badge">15</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <span class="dropdown-item dropdown-header">15 通知</span>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-envelope mr-2"></i> 4 新消息
+            <span class="float-right text-muted text-sm">3 mins</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-users mr-2"></i> 8 申请
+            <span class="float-right text-muted text-sm">12 hours</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-file mr-2"></i> 3 新回复
+            <span class="float-right text-muted text-sm">2 days</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">查看所有通知</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#">
+          <i class="fas fa-th-large"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-light-red elevation-4">
+    <!-- Brand Logo -->
+    <a href="../information/information.html" class="brand-link navbar-red">
+      <img src="../../dist/img/logo.jpg"
+           alt="社区 Logo"
+           class="brand-image img-circle elevation-3">
+      <span class="brand-text font-weight-light">为邻 后台管理系统</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="../../dist/img/huaqiao.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">王洪灿</a>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <li class="nav-item has-treeview">
+            <a class="nav-link ChaZD-link" chazd-href="null">
+              <i class="nav-icon fas fa-home"></i>
+              <p>
+                主页
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview" style="display: none;">
+              <li class="nav-item">
+                <a href="../information/information.html?tab_active=activity" class="nav-link active" id="a_activity">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>社区动态</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../information/information.html?tab_active=timeline" class="nav-link" id="a_timeline">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>社区历程</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../information/information.html?tab_active=settings" class="nav-link" id="a_settings">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>资料编辑</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-header">管理</li>
+          <li class="nav-item">
+            <a href="../user_manage/user_manage.html" class="nav-link">
+              <i class="nav-icon far fa fa-users-cog"></i>
+              <p>
+                用户管理
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../task_manage/task_manage.html" class="nav-link">
+              <i class="nav-icon far fa fa-tasks"></i>
+              <p>
+                任务管理
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../notify/notify.html" class="nav-link">
+              <i class="nav-icon far fa fa-mail-bulk"></i>
+              <p>
+                公告发布
+              </p>
+            </a>
+          </li>
+          <li class="nav-header">展示</li>
+          <li class="nav-item">
+            <a href="../statistics/statistics.html" class="nav-link">
+              <i class="nav-icon far fa fa-chart-bar"></i>
+              <p>
+                数据统计
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1></h1>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+
+            <!-- Profile Image -->
+            <div class="card card-danger card-outline">
+              <div class="card-body box-profile">
+                <div class="text-center">
+                  <img class="profile-user-img img-fluid img-circle"
+                       src="../../dist/img/huaqiao.jpg"
+                       alt="Community picture">
+                </div>
+
+                <h3 class="profile-username text-center">华侨大学-厦门校区</h3>
+
+                <p class="text-muted text-center">University</p>
+
+                <ul class="list-group list-group-unbordered mb-3">
+                  <li class="list-group-item">
+                    <b>Member</b> <a class="float-right">15,328</a>
+                  </li>
+                  <li class="list-group-item">
+                    <b>Manager</b> <a class="float-right">14</a>
+                  </li>
+                  <li class="list-group-item">
+                    <b>Task</b> <a class="float-right">1,287</a>
+                  </li>
+                </ul>
+
+                <a href="#" class="btn btn-danger btn-block"><i class="fa fa-share"></i><b>分享</b></a>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+
+            <!-- About Me Box -->
+            <div class="card card-danger">
+              <div class="card-header">
+                <h3 class="card-title">社区详情</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <strong><i class="fas fa-map mr-1"></i> 占地面积</strong>
+
+                <p class="text-muted">
+                  132万平方米
+                </p>
+
+                <hr>
+
+                <strong><i class="fas fa-map-marker-alt mr-1"></i> 地址</strong>
+
+                <p class="text-muted">中国 福建省厦门市 集美区侨英街道 兑山社区</p>
+
+                <hr>
+
+                <strong><i class="fas fa-building mr-1"></i>社区楼栋</strong>
+
+                <p class="text-muted">
+                  <span class="tag tag-danger">凤凰苑</span>
+                  <span class="tag tag-success">刺桐苑</span>
+                  <span class="tag tag-info">梅苑</span>
+                  <span class="tag tag-warning">莲苑</span>
+                  <span class="tag tag-primary">紫荆苑</span>
+                </p>
+
+                <hr>
+
+                <strong><i class="far fa-file-alt mr-1"></i> 社区简介</strong>
+
+                <p class="text-muted">华侨大学厦门校区是华侨大学两大校区之一，位于福建省厦门市集美区，于2004年开工建设，2006年正式投入使用。</p>
+                <p class="text-muted">
+                  建设华侨大学厦门校区，是国务院侨务办公室为进一步发挥华侨大学在国家侨务工作中的作用而作出的重大决策，也是华侨大学大力发展华文教育，扩大对外招生，提高学校办学水平，进一步做好“为侨服务”工作的战略部署。</p>
+                <p class="text-muted">厦门校区总用地面积132万平方米， 总规划建筑面积60万平方米，总投资16亿元，其中第一期工程建筑面积30万平方米，总投资8.3亿，并拥有全亚洲最长的教学长廊
+                  。至2010年全日制高等教育在校生达到1.5万人。</p>
+                <p class="text-muted">
+                  华侨大学厦门校区的建设，将既延续华侨大学的办学特色、历史传统、大学精神、治校理念，更突出华侨大学工程教育的优势和华文教育的特色，并以“生态型、景观型、现代化高等学校校园”为目标，形成和谐的教育环境，建成中国最重要、最大的海外华文教育基地。</p>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-9">
+            <div class="card">
+              <div class="card-header p-2">
+                <ul class="nav nav-pills">
+                  <li class="nav-item"><a class="nav-link active" href="#activity" data-toggle="tab" id="nav_activity">社区动态</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#timeline" data-toggle="tab" id="nav_timeline">社区历程</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#settings" data-toggle="tab" id="nav_settings">资料编辑</a></li>
+                </ul>
+              </div><!-- /.card-header -->
+              <div class="card-body">
+                <div class="tab-content">
+                  <div class="tab-pane active" id="activity">
+                    <!-- Post -->
+                    <div class="post">
+                      <div class="user-block">
+                        <img class="img-circle img-bordered-sm" src="../../dist/img/user1-128x128.jpg" alt="user image">
+                        <span class="username">
+                          <a href="#">陈述白</a>
+                          <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
+                        </span>
+                        <span class="description">借本软件工程导论 - 2018-12-30 22:37:19</span>
+                      </div>
+                      <!-- /.user-block -->
+                      <p>借本软件工程导论，买给我也行，送到凤凰苑3号楼</p>
+
+                      <p>
+                        <a href="#" class="link-black text-sm mr-2"><i class="fas fa-share mr-1"></i> 分享</a>
+                        <a href="#" class="link-black text-sm"><i class="far fa-thumbs-up mr-1"></i> 赞</a>
+                        <span class="float-right">
+                          <a href="#" class="link-black text-sm">
+                            <i class="far fa-comments mr-1"></i> 评论 (1)
+                          </a>
+                        </span>
+                      </p>
+                      <form class="form-horizontal">
+                        <div class="input-group input-group-sm mb-0">
+                          <input class="form-control form-control-sm" placeholder="写些什么吧">
+                          <div class="input-group-append">
+                            <button type="submit" class="btn btn-danger">发送</button>
+                          </div>
+                        </div>
+                      </form>
+
+                    </div>
+                    <!-- /.post -->
+
+                    <!-- Post -->
+                    <div class="post clearfix">
+                      <div class="user-block">
+                        <img class="img-circle img-bordered-sm" src="../../dist/img/user7-128x128.jpg" alt="User Image">
+                        <span class="username">
+                          <a href="#">白灵岑</a>
+                          <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
+                        </span>
+                        <span class="description">帮忙拿快递 - 2019-03-13 05:21:52</span>
+                      </div>
+                      <!-- /.user-block -->
+                      <p>
+                        帮忙在西街菜鸟驿站拿快递，取货码36-3623，送到凤凰苑3号楼
+                      </p>
+                      <p>
+                        <a href="#" class="link-black text-sm mr-2"><i class="fas fa-share mr-1"></i> 分享</a>
+                        <a href="#" class="link-black text-sm"><i class="far fa-thumbs-up mr-1"></i> 赞</a>
+                        <span class="float-right">
+                          <a href="#" class="link-black text-sm">
+                            <i class="far fa-comments mr-1"></i> 评论 (0)
+                          </a>
+                        </span>
+                      </p>
+
+                      <form class="form-horizontal">
+                        <div class="input-group input-group-sm mb-0">
+                          <input class="form-control form-control-sm" placeholder="写些什么吧">
+                          <div class="input-group-append">
+                            <button type="submit" class="btn btn-danger">发送</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- /.post -->
+
+                    <!-- Post -->
+                    <div class="post">
+                      <div class="user-block">
+                        <img class="img-circle img-bordered-sm" src="../../dist/img/user6-128x128.jpg" alt="User Image">
+                        <span class="username">
+                          <a href="#">李嫄思</a>
+                          <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
+                        </span>
+                        <span class="description">求帮忙拍套图 - 2019-05-02 20:39:32</span>
+                      </div>
+                      <!-- /.user-block -->
+                      <p>
+                        有没有新传小姐妹能抽空陪我派套图，预算200以内，另附社区积分，人景都要，像下图这样文艺些的
+                      </p>
+                      <div class="row mb-3">
+                        <div class="col-sm-6">
+                          <img class="img-fluid" src="../../dist/img/photo1.png" alt="Photo">
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-sm-6">
+                          <div class="row">
+                            <div class="col-sm-6">
+                              <img class="img-fluid mb-3" src="../../dist/img/photo2.png" alt="Photo">
+                              <img class="img-fluid" src="../../dist/img/photo3.jpg" alt="Photo">
+                            </div>
+                            <!-- /.col -->
+                            <div class="col-sm-6">
+                              <img class="img-fluid mb-3" src="../../dist/img/photo4.jpg" alt="Photo">
+                              <img class="img-fluid" src="../../dist/img/photo1.png" alt="Photo">
+                            </div>
+                            <!-- /.col -->
+                          </div>
+                          <!-- /.row -->
+                        </div>
+                        <!-- /.col -->
+                      </div>
+                      <!-- /.row -->
+
+                      <p>
+                        <a href="#" class="link-black text-sm mr-2"><i class="fas fa-share mr-1"></i> 分享</a>
+                        <a href="#" class="link-black text-sm"><i class="far fa-thumbs-up mr-1"></i> 赞</a>
+                        <span class="float-right">
+                          <a href="#" class="link-black text-sm">
+                            <i class="far fa-comments mr-1"></i> 评论 (3)
+                          </a>
+                        </span>
+                      </p>
+                      <form class="form-horizontal">
+                        <div class="input-group input-group-sm mb-0">
+                          <input class="form-control form-control-sm" placeholder="写些什么吧">
+                          <div class="input-group-append">
+                            <button type="submit" class="btn btn-danger">发送</button>
+                          </div>
+                        </div>
+                      </form>
+
+                    </div>
+                    <!-- /.post -->
+                  </div>
+                  <!-- /.tab-pane -->
+
+                  <div class="tab-pane" id="timeline">
+                    <!-- The timeline -->
+                    <div class="timeline timeline-inverse">
+                      <!-- timeline time label -->
+                      <div class="time-label">
+                        <span class="bg-danger">
+                          2019
+                        </span>
+                      </div>
+                      <!-- /.timeline-label -->
+
+                      <!-- timeline item -->
+                      <div>
+                        <i class="fas fa-user bg-info"></i>
+
+                        <div class="timeline-item">
+                          <span class="time"><i class="far fa-clock"></i> 05/19</span>
+
+                          <h3 class="timeline-header border-0"><a href="#">系统通知</a> 社区成员数达到10000！
+                          </h3>
+                        </div>
+                      </div>
+                      <!-- END timeline item -->
+                      <!-- timeline item -->
+                      <div>
+                        <i class="fas fa-comments bg-warning"></i>
+
+                        <div class="timeline-item">
+                          <span class="time"><i class="far fa-clock"></i> 01/20</span>
+
+                          <h3 class="timeline-header"><a href="#">陈津</a> 发起了话题讨论</h3>
+
+                          <div class="timeline-body">
+                            感谢大家这一年来的支持和使用！<br>
+                            本社区收取各位成员本年度提出的各种意见及建议<br>
+                            即将推出社区规定2.0版本<br>
+                            大家有更多相关意见请在本次讨论中提出！
+                          </div>
+                          <div class="timeline-footer">
+                            <a href="#" class="btn btn-warning btn-flat btn-sm">参与讨论</a>
+                            <a href="#" class="btn btn-danger btn-flat btn-sm">删除</a>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- timeline time label -->
+                      <div class="time-label">
+                        <span class="bg-danger">
+                          2018
+                        </span>
+                      </div>
+                      <!-- timeline item -->
+                      <div>
+                        <i class="fas fa-envelope bg-primary"></i>
+
+                        <div class="timeline-item">
+                          <span class="time"><i class="far fa-clock"></i> 01/08</span>
+
+                          <h3 class="timeline-header"><a href="#">管理团队</a> 发布了第一份社区管理条例</h3>
+
+                          <div class="timeline-body">
+                            为了更好的帮助各位同学解决学习上、生活中的小烦恼，本社区——华侨大学厦门校区，正式发布第一份
+                            任务发布及社区管理规定，请下载附件查看
+                          </div>
+                          <div class="timeline-footer">
+                            <a href="#" class="btn btn-primary btn-sm">下载</a>
+                            <a href="#" class="btn btn-danger btn-sm">删除</a>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- END timeline item -->
+                      <!-- timeline time label -->
+                      <div class="time-label">
+                        <span class="bg-danger">
+                          2017
+                        </span>
+                      </div>
+                      <!-- /.timeline-label -->
+                      <!-- timeline item -->
+                      <div>
+                        <i class="fas fa-camera bg-purple"></i>
+
+                        <div class="timeline-item">
+                          <span class="time"><i class="far fa-clock"></i> 10/23</span>
+
+                          <h3 class="timeline-header"><a href="#">陈思翔</a> 上传了图片</h3>
+
+                          <div class="timeline-body">
+                            <img src="../../dist/img/university1.jpg" alt="..."/>
+                            <img src="../../dist/img/university2.jpg" alt="...">
+                            <img src="../../dist/img/university3.jpg" alt="...">
+                          </div>
+                          <div class="timeline-footer">
+                            <a href="#" class="btn btn-danger btn-sm">删除</a>
+                          </div>
+                        </div>
+
+                      </div>
+                      <!-- END timeline item -->
+                      <div>
+                        <i class="fas fa-user bg-info"></i>
+
+                        <div class="timeline-item">
+                          <span class="time"><i class="far fa-clock"></i> 10/18</span>
+
+                          <h3 class="timeline-header border-0"><a href="#">陈思翔</a> 创建了社区
+                          </h3>
+                        </div>
+                      </div>
+
+                      <div>
+                        <i class="far fa-clock bg-gray"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.tab-pane -->
+
+                  <div class="tab-pane" id="settings">
+                    <form class="form-horizontal">
+                      <div class="form-group row">
+                        <label for="inputName" class="col-sm-2 col-form-label">社区名</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputName" placeholder="社区名">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputArea" class="col-sm-2 col-form-label">占地面积</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputArea" placeholder="占地面积">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputAddress" class="col-sm-2 col-form-label">街道地址</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputAddress" placeholder="街道地址">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputBuilding" class="col-sm-2 col-form-label">楼栋介绍</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" id="inputBuilding" placeholder="楼栋介绍">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputIntroduction" class="col-sm-2 col-form-label">社区简介</label>
+                        <div class="col-sm-10">
+                          <textarea class="form-control" id="inputIntroduction" placeholder="社区简介"></textarea>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="offset-sm-2 col-sm-10">
+                          <button type="submit" class="btn btn-danger">提交</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <!-- /.tab-pane -->
+                </div>
+                <!-- /.tab-content -->
+              </div><!-- /.card-body -->
+            </div>
+            <!-- /.nav-tabs-custom -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 3.0.0-rc.5
+    </div>
+    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
+    reserved.
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../../dist/js/demo.js"></script>
+<script type="text/javascript">
+    function getParams(key) {
+        var reg = new RegExp("(^|&)" + key + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) {
+            return unescape(r[2]);
+        }
+        return null;
+    }
+
+    console.log("参数param1:" + getParams("tab_active"));//输出aa
+    $("#activity").removeClass("active");
+    $("#timeline").removeClass("active");
+    $("#settings").removeClass("active");
+    $("#nav_activity").removeClass("active");
+    $("#nav_timeline").removeClass("active");
+    $("#nav_settings").removeClass("active");
+    $("#a_activity").removeClass("active");
+    $("#a_timeline").removeClass("active");
+    $("#a_settings").removeClass("active");
+    $("#" + getParams("tab_active")).addClass("active");
+    $("#nav_" + getParams("tab_active")).addClass("active");
+    $("#a_" + getParams("tab_active")).addClass("active");
+</script>
+</body>
+</html>
